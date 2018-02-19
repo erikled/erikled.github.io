@@ -96,7 +96,7 @@ d3.csv('data.csv', function (data) {
       .attr('x',w)
       .attr('dy','.71em')
       .style('text-anchor','end')
-      .text('GDP per capita')
+      .text('GDP per capita (PPP)')
 
 
   // Y-axis
@@ -110,7 +110,7 @@ d3.csv('data.csv', function (data) {
       .attr('y',0)
       .attr('dy','.71em')
       .style('text-anchor','end')
-      .text('Happiness Index')
+      .text('Percentage of people happy')
 
 
     svg.append('g')
